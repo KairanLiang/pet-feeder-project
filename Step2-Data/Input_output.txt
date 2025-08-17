@@ -1,0 +1,8 @@
+Inputs: real-time clock, food level sensor, weight sensor under bowl.
+Outputs: alarm, rotate motor.
+Component	Type	Sample value	Constraint
+Real-time clock	Input	8:00AM,6:00PM	On time
+Food level sensor	Input	1KG	＞200g to dispense
+Weight sensor under bowl	Input	0g, 100g, 200g	±5g
+Rotate motor	Output	Rotate 90°	Reset to 0°after use
+Alert system	Output	Alarm	Send alert
