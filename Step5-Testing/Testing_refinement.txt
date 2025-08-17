@@ -1,0 +1,10 @@
+Testing
+Scenario	Input	Output	Result
+Pet eats as expected	8AM, food=200g	No alert	PASS
+Pet does not eat	18AM, food=200g	No weight change, send alert	PASS
+Food bin is empty	8AM, food＜200g	Send alert	PASS
+Pet eats ＜5g	18AM, food=200g	No weight change, send alert	PASS
+System refinements:
+1.Set up a camera to monitor your pet's eating.
+2.Hourly weight monitoring to ensure your pet is eating.
+3.Set the weight sensor to automatically dispense food when it detects 0g.
