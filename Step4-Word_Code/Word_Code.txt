@@ -1,0 +1,14 @@
+START
+Input real-time clock, if real-time clock=8AM or 6PM THEN:
+Check food level.
+IF food level＞200g THEN:
+Rotate motor to 90°to dispense food.
+ELSE:
+Send alert: No food to dispense.
+Wait 10 minutes.
+Check weight under bowl.
+IF weight changed more than 5g, Pets has eaten.
+END
+ELSE:
+Send alert.
+END
